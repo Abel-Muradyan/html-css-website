@@ -1,0 +1,422 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/section1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 2px 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+header button {
+    background-color: white;
+    color: black;
+    padding: 15px 35px;
+    border: 0;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+header button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.7s;
+
+}
+
+
+header .headerDiv {
+    padding-top: 10%;
+}
+
+header .headerDiv div {
+    width: 550px;
+}
+
+header .headerDiv div h1 {
+    color: white;
+    font-size: 110px;
+    margin: 0;
+}
+
+header .headerDiv div p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header .headerDiv2 {
+    display: flex;
+    justify-content: center;
+}
+
+header .headerDiv2 .overlayDiv .dv1 button{
+    background-color: black;
+    color: white;
+}
+
+header .headerDiv2 .overlayDiv .dv1 button:hover{
+    background-color: green;
+}
+
+header .overlayDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    position: absolute;
+    bottom: -50px;
+    box-shadow: 0 0 20px 5px rgb(21, 21, 21);
+}
+
+header .overlayDiv div {
+    padding: 5px;
+    width: 25%;
+}
+
+/* ==========================button================================ */
+
+
+
+#btn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right:15px ;
+    background-color: rgb(12, 160, 57);
+    cursor: pointer;
+    padding: 10px;
+    width:70px;
+    height: 70px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+
+}
+
+#btn:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.7s;
+}
+
+
+
+/*--------------section1--------------------  */
+
+
+
+.sec1{
+    background-color: rgb(243, 243, 243);
+    padding: 100px;
+    margin: 20px;
+}
+
+.sec1 .mainDiv1{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+.sec1 .sec1Div1 {
+    background-image: url(../img/section1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 550px;
+    margin: 25px;
+}
+
+
+.sec1 .sec1Div2 {
+    width: 550px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.sec1 h2 {
+    color: rgb(39, 39, 39);
+    /* line-height: 30px; */
+    font-size: 50px;
+}
+.sec1 p {
+    color: rgb(39, 39, 39);
+    line-height: 30px;
+}
+
+/*--------------------------------------------section2----------------------------------- */
+
+
+.sec2{
+    background-color: rgb(255, 255, 255);
+    padding: 80px;  
+}
+
+.sec2 .mainDiv2{
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 .mainDiv2 div {
+    width: 600px;
+    text-align: center;
+} 
+
+.sec2 .mainDiv3{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sec2 .mainDiv3 .sec2Div{
+    width: 380px;
+    margin: 15px;
+}
+
+.sec2 .mainDiv3 .sec2Div img{
+    width: 100%;
+}
+
+.sec2 .mainDiv3 .sec2Div .textDiv h2{
+  display: flex;
+  justify-content:center ;
+}
+
+.sec2 .mainDiv3 .sec2Div .textDiv h3{
+    display: flex;
+    justify-content:center ;
+    color: rgb(0, 160, 0);
+  }
+
+  /* ============================section3============================ */
+  .sec3{
+    background-color: rgb(245, 245, 245);
+    padding: 100px;
+    /* height:1100px ; */
+  }
+
+  .sec3 .sec3Row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sec3 a {
+    color: white;
+  }
+  .sec3 .mecDiv {
+    width: 900px;
+    background: white;
+    padding: 80px;
+  }
+.sec3 .textDiv2{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(43, 43, 43);
+    padding:40px 80px;
+    border-radius:15px 15px 0 0;
+    width: 900px;
+ }
+ .sec3 .mecDiv .mainDiv4 .sect4Div h2{
+     line-height: 20px;
+     font-size: 40px;
+     display: flex;
+     justify-content: center;
+ }
+ .sec3 .sec3Row .mecDiv .secDiv3 h4{
+    color: green;
+ }
+
+ /* -----------------------------------section4-------------------------------- */
+
+
+
+.sec4 .mecDiv2 {
+    display: flex;
+}
+.sec4 .mecDiv2 {
+    display: flex;
+}
+
+.sec4 .mecDiv2 .sec4Div1{
+   width: 33.3%;
+   position: relative;
+   transition: 0.4s;
+}   
+.sec4 .mecDiv2 .sec4Div2 {
+    width: 50%;
+    position: relative;
+}   
+
+.sec4  img{
+    width: 100%;
+}   
+   /* =============section4 galerry================= */
+
+.sec4 .galDiv{
+    left: 0;
+    position: relative;
+    border:none;
+    width: 2000px;
+}
+#myImg{
+    position: absolute;
+    display: block;
+    color: black;
+    cursor: pointer;
+    right: 200px;
+    top: 10px;
+}
+.sec4 .galDiv #myImg{
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    width: 800px;
+    height: 700px;
+    left: 25%;
+    z-index: 999;
+}
+.sec4 .zoomDiv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.sec4 .mecDiv2 .sec4Div1:hover .zoomDiv{
+    visibility: visible;
+    opacity: 1;
+}
+
+.sec4 .mecDiv2 .sec4Div2:hover .zoomDiv {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sec4 .zoomDiv .zoom {
+    transform: translate(-50%, -50%);
+    height: 85px;
+    width: 85px;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 0 13px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    line-height: 75px;
+    position: absolute;
+    font-weight:600;
+    font-size: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.sec4 .zoomDiv .zoom:hover {
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.5);
+}
+.sec4 .mecDiv2 .zoomDiv .zoom p{
+    margin-top: 5px;
+}
+
+.sec4 .mecDiv2 .sec4Div1 .img{
+    cursor: pointer;
+}
+
+.sec4 .mecDiv2 .sec4Div1 .img{
+    cursor: pointer;
+}
+
+
+.galDiv{
+    position: relative;
+    display: none;
+}
+
+.mySpan{
+    position: absolute;
+    color: aliceblue;
+    cursor: pointer;
+}
+/* 
+.myImg{
+    width: 100%; 
+    height: 100%; 
+    
+} */
+
+/* =====================================footer============================================== */
+
+
+footer {
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height: 400px;
+}
+
+footer .mainDiv7 .footDiv1 a img {
+    margin-top: 100px;
+    margin-bottom: 30px; 
+}
+
+footer .footDiv2 ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footDiv2 ul li{
+    list-style: none;
+}
+footer .footDiv2 ul li a {
+    display: inline-block;
+    margin: 30px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    unicode-bidi: isolate;
+}
+
+footer .footDiv3{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footDiv4 p {
+    color: rgba(167, 167, 167, 0.5);
+    margin: 30px;
+} 
+footer .mainDiv7 .footDiv3 div a img {
+    width: 30px;
+}   
